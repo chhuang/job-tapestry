@@ -1,0 +1,132 @@
+/*	BASIC SETTINGS																		*/ 
+/*	----------------------------------------------------------------------------------	*/	
+
+	body { font-family:"Georgia", serif; color:#001834; }
+	h1 { font-family:'Lobster', cursive; margin-left:10px; }
+	h2 { font-family:'Lobster', cursive; text-align:center; font-size:48px; padding:0 0 40px; line-height:1.2; color:#001834; }
+	h3 { font-size:24px; font-weight:bold; color:#001834; }
+	p { font-size:18px; margin-bottom:30px; line-height:1.8; }
+	strong { font-weight:bold; }
+	.section { padding-top:100px; padding-bottom:100px; position:relative; }	
+	a:link,
+	a:visited { color:#ffed55; text-decoration:none; }
+	a:hover,
+	a:active { text-decoration:underline; }
+
+
+/*	HELPERS																				*/ 
+/*	----------------------------------------------------------------------------------	*/
+    .ir { display:block; text-indent:-999em; overflow:hidden; background-repeat:no-repeat; text-align:left; direction:ltr; } /* For image replacement */
+
+      		
+/*	HEADER																				*/ 
+/*	----------------------------------------------------------------------------------	*/
+    
+	header { background:#fffbba; border-bottom:1px solid #e1dc8f; }
+	header h1 a:link,
+	header h1 a:visited { font-size:72px; color:#333; text-decoration:none; display:block; line-height:1; }
+	header h1 a span { font-size:36px; display:block; margin-bottom:10px; }
+
+   
+/*	WHO																		    		*/ 
+/*	----------------------------------------------------------------------------------	*/
+    .who em { background:#001834; color:#fff; padding:2px 6px; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; }
+	.resume-wrap { list-style:none; overflow:hidden; }
+	.resume-wrap li { display:inline; }
+	.resume { background:transparent url(../images/btn-resume.png) left top; float:left; margin:10px 20px 20px 10px; }
+	.btn-nick-resume { width:170px; height:40px; }
+	.btn-nick-resume:hover { background-position:left -40px; }
+	.btn-nick-resume:active { background-position:left -80px; }
+	.btn-chang-resume { height:40px; width:190px; background-position:right top; }	
+	.btn-chang-resume:hover { background-position:right -40px; }	
+	.btn-chang-resume:active { background-position:right -80px; }	
+
+
+/*	WHAT DO WE DO																		*/ 
+/*	----------------------------------------------------------------------------------	*/	
+	.what-do-we-do,
+	.contact { background:#eee; border-top:1px solid #ddd; border-bottom:1px solid #ddd; padding-top:60px; }
+	.what-do-we-do { overflow:hidden; }
+	.what-do-we-do h3 { font-size:18px; }
+	.skills-nick h3 { text-align:right; }
+	.skills { font-family:helvetica, arial, sans-serif; list-style:none; margin-top:10px; }
+	.skills li { margin-bottom:20px; position:relative; height:40px; }
+	.skills li:hover .skill { color:#fff; }
+	.skills .index { position:absolute; top:-1px; text-indent:-9999px; z-index:10; display:block; height:100%; }
+	.skills .skill { position:relative; z-index:100; display:block; line-height:2.6; }
+	.skills-chang .index { background:#7057a5; border:1px solid #7057a5; left:-1px; }
+	.skills-chang li { background:#ebe2ff; border:1px solid #d8d0e9; }
+	.skills-chang .skill { color:#c2b6dd; margin-left:10px; }
+	.skills-nick { margin-bottom:60px; }
+	.skills-nick .index { background:#87ca28; border:1px solid #87ca28; right:0; }
+	.skills-nick li { background:#e5f0d5; border:1px solid #caddaf; border-right:1px solid #fff; }		
+	.skills-nick .skill { color:#d5ff99; text-align:right;  margin-right:10px; }
+	.what-have-we-done { margin-top:60px; overflow:visible; }
+	.what-have-we-done h2 { padding-bottom:20px; }
+
+	    
+/*	WHY																				*/ 
+/*	----------------------------------------------------------------------------------	*/
+	.why h3 { margin:60px 0 10px; }
+	.why .resume { margin-left:0; }
+	.why .resume-wrap { margin-top:60px; }
+    .roles { text-align:center; }
+
+
+/*	FOOTER																				*/ 
+/*	----------------------------------------------------------------------------------	*/
+	.contact h3 { margin:20px 0 10px; }
+    .ty h2 { text-align:center; position:relative; top:70px;  }
+	.social { overflow:hidden; list-style:none; }
+	.social a { -webkit-transition:-webkit-transform 0.3s ease-out; -moz-transition:-moz-transform 0.3s ease-out; transition:transform 0.3s ease-out; }
+	.social a:hover { -webkit-transform:rotateZ(360deg); -moz-transform:rotateZ(360deg); transform:rotateZ(360deg); }
+	.social li { float:left; margin-right:10px; padding:4px; }
+	.twitter { background:transparent url(../images/social/twitter.png) no-repeat center center; width:32px; height:32px; }
+	.flickr { background:transparent url(../images/social/flickr.png) no-repeat center center; width:32px; height:32px; }
+	.linkedin { background:transparent url(../images/social/linkedin.png) no-repeat center center; width:32px; height:32px; }
+	.delicious { background:transparent url(../images/social/delicious.png) no-repeat center center; width:32px; height:32px; }
+	.tumblr { background:transparent url(../images/social/tumblr.png) no-repeat center center; width:32px; height:32px; }
+	.email { background:transparent url(../images/social/email.png) no-repeat center center; width:32px; height:32px; }
+	.portfolio { background:transparent url(../images/social/portfolio.png) no-repeat center center; width:32px; height:32px; }
+	
+	.footer { border-top:1px solid #666; padding:0; background:transparent url(../images/bg-footer.jpg) repeat-x center center; height:300px; position:relative; }
+    .footer p { color:#aaa; font-size:12px; font-family:helvetica, arial, serif; padding:10px 0 6px; position:absolute; bottom:0; background:#000; width:100%; margin-bottom:0; opacity:.8; text-align:center; }
+	.footer p span { color:#fff; }
+	
+	.resize { position:fixed; right:0; bottom:0; z-index:999; }
+	
+	
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media screen and (min-width: 1001px) {
+    header .row { padding-top:220px; background:transparent url(../images/herographic.jpg) no-repeat 102% bottom; }
+    header .twelvecol { position:relative; top:-60px; }
+    .resume-wrap { margin-top:40px; }
+} 
+
+@media screen and (max-width: 1000px) {
+    header h1 a:link,
+	header h1 a:visited { padding-top:60px; padding-bottom:30px; }
+	h1 br { display:none; }
+	.btn-nick-resume { margin-bottom:0 !important; }
+	.ty h2 { top:0; }
+}
+
+@media handheld, only screen and (max-width: 767px) {
+    .resize { display:none; }
+}
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
